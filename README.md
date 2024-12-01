@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# Leave Management Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
+A mobile application for managing employee leave requests using React Native and Firebase.
 
-## Get started
+## Prerequisites
+- Node.js (v14 or later)
+- npm or Yarn
+- Expo CLI
+- Firebase Account
 
-1. Install dependencies
-
-   ```bash
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies:
+   ```
    npm install
    ```
 
-2. Start the app
+3. Configure Firebase:
+   - Create a Firebase project
+   - Add your Firebase configuration in `firebaseConfig.js`
+   - Replace placeholders with your actual Firebase project details
 
-   ```bash
-    npx expo start
-   ```
+## Running the App
+- For iOS: `npm run ios`
+- For Android: `npm run android`
+- For Web: `npm run web`
 
-In the output, you'll find options to open the app in a
+## Features
+- Employee leave application submission
+- Leave type selection
+- Date range picking
+- Firebase Firestore integration
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technologies
+- React Native
+- Firebase Firestore
+- React Navigation
+- React Native Paper
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## TODO
+- Implement leave balance tracking
+- Add authentication
+- Create admin dashboard
